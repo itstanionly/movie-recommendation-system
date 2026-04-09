@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.read_csv("/content/movies.csv")
 df.head()
-        !pip install scikit-learn
+     
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 mood_map = {
